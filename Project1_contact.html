@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact page</title>
+        <link rel="stylesheet" href="Project1.css" />
+        <meta name="description" content="Contact Katy through this form.">
+        <script src="contactmessage.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="logo">
+                <a href="Project1.html"><img src="ktlogo.png"></a>
+                </p>
+            </div>
+            <div class="pages">
+                <a href="Project1.html">Work</a>
+                <a href="Project1_contact.html">Play</a>
+                <a href="Project1_contact.html">Resume</a>
+                <a href="Project1_contact.html">About</a>
+                <a href="Project1_contact.html">Contact</a>
+            </div>
+        </div>
+        <div class="twocol">
+            <div id="sayhi">
+                <h2>Say hi!</h2>
+                <p>If you're interested in working together or just wanna drop in a comment or hello feel free!! 
+                    <br>
+                    <br>
+                    I'd love to hear your take on how you pronounce the word “Caramel”?</p>
+            </div>
+            <div id="form">
+                <form onsubmit="return handleSubmit(event)">
+                    <div id="names">
+                        <input placeholder="first name" id="fname" name="fname"><br>
+                        <input placeholder="last name" id="lname" name="lname"> <br>
+                    </div>
+                    <br>
+                    <input placeholder="email" id="email" name="email"><br> <br>
+                    <input placeholder="your message here!" id="inputtext" name="inputtext"><br>
+                    <input type="submit" id="submit" value="send"><br>
+                </form>
+            </div>
+        </div>
+        <p id="message"></p>
+    </body>
+</html>

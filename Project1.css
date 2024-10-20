@@ -1,0 +1,213 @@
+body {
+    background-color:#FFFAF2;
+    margin-top: 30px;
+    margin-left: 94px;
+    margin-right: 94px;
+    margin-bottom:94px;
+    font-family: Open Sauce One, sans-serif;
+    font-size: 24px;;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pages {
+    width: 500px;
+    display: flex;
+    font-family: Open Sauce One, sans-serif;
+    flex-direction:row;
+    justify-content: space-between;
+    font-size: 20px;
+    
+}
+
+.pages > a {
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+    border: black;
+}
+
+.pages>a:hover {
+    border-bottom: 20px black;
+}
+
+h1 {
+    font-family: Boxing, Serif;
+    color: #FF7521;
+    font-size: 4em;
+    font-kerning: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.intros {
+    display: flex;
+    width: 900px;
+    flex-direction: row;
+    align-content: space-evenly;
+}
+
+.intros > img {
+    margin-right: 16px;
+}
+
+#intros {
+    margin-bottom: 80px;
+}
+
+img {
+    display: block;
+    object-fit: contain;
+}
+
+#stars {
+    position: absolute;
+    top: 150px;
+    right: 65px;
+}
+
+#colorbar {
+    position:absolute;
+    left:0;
+}
+
+#colorbar > img {
+    width: 100vw;
+}
+
+#hobbies {
+    display: flex;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-family: Boxing, serif;
+    font-size: 40px;
+}
+
+#hobbiesitems {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#projects {
+    display: flex;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-size:140%;
+}
+
+
+.projcolumn {
+    float: left;
+    width: 50%;
+}
+
+.projectlist img {
+    width: 100%;  /* Image will take 100% of its container's width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.projtitle {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: baseline;    /* Align the <h3> and <p> on their baselines */
+    justify-content: space-between; /* Optional: space between <h3> and <p> */
+    margin-top: -24px;
+
+}
+
+.oneproject {
+    margin: 36px;
+}
+
+.twocol {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 100px;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 40px;
+}
+
+#sayhi {
+    display: block;
+    width: 50%;
+    margin-right: 30px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 0px;
+} 
+
+input {
+    display: block;
+    padding: 15px 15px 15px 20px;
+    border-radius: 30px;
+    border: solid 1px;
+    background-color: #FAF3E8;
+    font-size: 20px;
+}
+
+input::placeholder {
+    font-family: Open Sauce One, sans-serif;
+    font-size: 20px;
+}
+
+#fname {
+    width: 200px;
+}
+
+#lname {
+    width: 200px;
+}
+
+#names {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#email {
+    width: 480px;
+}
+
+#inputtext {
+    width: 480px;
+}
+
+#submit {
+    background-color: #3366FF;
+    color: white;
+    font-size: 20px;
+    padding: 14px 48px 15px 48px;
+    display: flex;
+    align-self: flex-end;
+    border-radius: 30px;
+    border: none;
+}
+
+#message {
+    text-align: center;
+}
+
